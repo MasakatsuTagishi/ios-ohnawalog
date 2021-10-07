@@ -3,27 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		07195545270BEDE9001B1951 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07195544270BEDE9001B1951 /* AppDelegate.swift */; };
 		07195547270BEDE9001B1951 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07195546270BEDE9001B1951 /* SceneDelegate.swift */; };
-		07195549270BEDE9001B1951 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07195548270BEDE9001B1951 /* ViewController.swift */; };
+		07195549270BEDE9001B1951 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07195548270BEDE9001B1951 /* LoginViewController.swift */; };
 		0719554C270BEDE9001B1951 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0719554A270BEDE9001B1951 /* Main.storyboard */; };
 		0719554E270BEDEB001B1951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0719554D270BEDEB001B1951 /* Assets.xcassets */; };
 		07195551270BEDEB001B1951 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0719554F270BEDEB001B1951 /* LaunchScreen.storyboard */; };
+		0719555D270C0588001B1951 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0719555C270C0588001B1951 /* GoogleService-Info.plist */; };
+		0719555F270C10D3001B1951 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0719555E270C10D3001B1951 /* CalendarViewController.swift */; };
+		07195561270C1254001B1951 /* CountRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07195560270C1254001B1951 /* CountRegisterViewController.swift */; };
+		07195563270C17E0001B1951 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07195562270C17E0001B1951 /* RankingViewController.swift */; };
+		07195566270C1942001B1951 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07195565270C1942001B1951 /* Keychain.swift */; };
+		07195568270C1ACD001B1951 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07195567270C1ACD001B1951 /* TabBarViewController.swift */; };
+		0719556A270C3477001B1951 /* Count.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07195569270C3477001B1951 /* Count.swift */; };
+		0719556E270D8938001B1951 /* Ranking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0719556D270D8938001B1951 /* Ranking.swift */; };
+		CB4AFD5A40C9E743A58B46C8 /* Pods_OhnawaLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C73EC342991478F0ECD602BC /* Pods_OhnawaLog.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		07195541270BEDE9001B1951 /* OhnawaLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OhnawaLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07195544270BEDE9001B1951 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07195546270BEDE9001B1951 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		07195548270BEDE9001B1951 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07195548270BEDE9001B1951 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0719554B270BEDE9001B1951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0719554D270BEDEB001B1951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07195550270BEDEB001B1951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07195552270BEDEB001B1951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0719555C270C0588001B1951 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0719555E270C10D3001B1951 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		07195560270C1254001B1951 /* CountRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountRegisterViewController.swift; sourceTree = "<group>"; };
+		07195562270C17E0001B1951 /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
+		07195565270C1942001B1951 /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		07195567270C1ACD001B1951 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		07195569270C3477001B1951 /* Count.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Count.swift; sourceTree = "<group>"; };
+		0719556D270D8938001B1951 /* Ranking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ranking.swift; sourceTree = "<group>"; };
+		BCC9FA6E44D84B3A7A094FA1 /* Pods-OhnawaLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OhnawaLog.debug.xcconfig"; path = "Target Support Files/Pods-OhnawaLog/Pods-OhnawaLog.debug.xcconfig"; sourceTree = "<group>"; };
+		C12A6098539AA1FAA14419DC /* Pods-OhnawaLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OhnawaLog.release.xcconfig"; path = "Target Support Files/Pods-OhnawaLog/Pods-OhnawaLog.release.xcconfig"; sourceTree = "<group>"; };
+		C73EC342991478F0ECD602BC /* Pods_OhnawaLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OhnawaLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB4AFD5A40C9E743A58B46C8 /* Pods_OhnawaLog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +63,8 @@
 			children = (
 				07195543270BEDE9001B1951 /* OhnawaLog */,
 				07195542270BEDE9001B1951 /* Products */,
+				F67BD5FEF73A0C186CA55698 /* Pods */,
+				BBC4089FE35EEB3B64EC8E7A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +81,62 @@
 			children = (
 				07195544270BEDE9001B1951 /* AppDelegate.swift */,
 				07195546270BEDE9001B1951 /* SceneDelegate.swift */,
-				07195548270BEDE9001B1951 /* ViewController.swift */,
-				0719554A270BEDE9001B1951 /* Main.storyboard */,
+				07195564270C18D8001B1951 /* Model */,
+				07195559270BEE4A001B1951 /* View */,
+				07195558270BEE2B001B1951 /* Controller */,
+				07195565270C1942001B1951 /* Keychain.swift */,
 				0719554D270BEDEB001B1951 /* Assets.xcassets */,
-				0719554F270BEDEB001B1951 /* LaunchScreen.storyboard */,
 				07195552270BEDEB001B1951 /* Info.plist */,
+				0719555C270C0588001B1951 /* GoogleService-Info.plist */,
 			);
 			path = OhnawaLog;
+			sourceTree = "<group>";
+		};
+		07195558270BEE2B001B1951 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				07195548270BEDE9001B1951 /* LoginViewController.swift */,
+				0719555E270C10D3001B1951 /* CalendarViewController.swift */,
+				07195560270C1254001B1951 /* CountRegisterViewController.swift */,
+				07195562270C17E0001B1951 /* RankingViewController.swift */,
+				07195567270C1ACD001B1951 /* TabBarViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		07195559270BEE4A001B1951 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0719554A270BEDE9001B1951 /* Main.storyboard */,
+				0719554F270BEDEB001B1951 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		07195564270C18D8001B1951 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				07195569270C3477001B1951 /* Count.swift */,
+				0719556D270D8938001B1951 /* Ranking.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BBC4089FE35EEB3B64EC8E7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C73EC342991478F0ECD602BC /* Pods_OhnawaLog.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F67BD5FEF73A0C186CA55698 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCC9FA6E44D84B3A7A094FA1 /* Pods-OhnawaLog.debug.xcconfig */,
+				C12A6098539AA1FAA14419DC /* Pods-OhnawaLog.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +146,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07195555270BEDEB001B1951 /* Build configuration list for PBXNativeTarget "OhnawaLog" */;
 			buildPhases = (
+				2D6557363B391E36636E7F2D /* [CP] Check Pods Manifest.lock */,
 				0719553D270BEDE9001B1951 /* Sources */,
 				0719553E270BEDE9001B1951 /* Frameworks */,
 				0719553F270BEDE9001B1951 /* Resources */,
+				D0BF7B154CB3598813367001 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07195551270BEDEB001B1951 /* LaunchScreen.storyboard in Resources */,
+				0719555D270C0588001B1951 /* GoogleService-Info.plist in Resources */,
 				0719554E270BEDEB001B1951 /* Assets.xcassets in Resources */,
 				0719554C270BEDE9001B1951 /* Main.storyboard in Resources */,
 			);
@@ -132,14 +207,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2D6557363B391E36636E7F2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OhnawaLog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0BF7B154CB3598813367001 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OhnawaLog/Pods-OhnawaLog-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OhnawaLog/Pods-OhnawaLog-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OhnawaLog/Pods-OhnawaLog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0719553D270BEDE9001B1951 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07195549270BEDE9001B1951 /* ViewController.swift in Sources */,
+				07195568270C1ACD001B1951 /* TabBarViewController.swift in Sources */,
+				0719555F270C10D3001B1951 /* CalendarViewController.swift in Sources */,
+				07195549270BEDE9001B1951 /* LoginViewController.swift in Sources */,
+				0719556A270C3477001B1951 /* Count.swift in Sources */,
+				0719556E270D8938001B1951 /* Ranking.swift in Sources */,
+				07195561270C1254001B1951 /* CountRegisterViewController.swift in Sources */,
 				07195545270BEDE9001B1951 /* AppDelegate.swift in Sources */,
 				07195547270BEDE9001B1951 /* SceneDelegate.swift in Sources */,
+				07195563270C17E0001B1951 /* RankingViewController.swift in Sources */,
+				07195566270C1942001B1951 /* Keychain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +407,7 @@
 		};
 		07195556270BEDEB001B1951 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCC9FA6E44D84B3A7A094FA1 /* Pods-OhnawaLog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +427,7 @@
 		};
 		07195557270BEDEB001B1951 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C12A6098539AA1FAA14419DC /* Pods-OhnawaLog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
